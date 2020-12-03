@@ -1,3 +1,5 @@
+const readlineSync = require('readline-sync');
+
 // this will perform basic addition 
 const addition = (num1, num2) => {
   return num1 + num2;
@@ -28,6 +30,8 @@ const powerOf = (num1, num2) => {
   return num1 ** num2; 
 };
 
+
+// this allows you to export functions into other pages using the require keyword
 module.exports = {
   addition: addition,
   subtraction: subtraction,

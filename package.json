@@ -1,0 +1,11 @@
+{
+  "name": "js-calc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/chriscoder-commit/js-calc.git",
+  "author": "Chris Scott <cam022007@coderacademy.edu.au>",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
